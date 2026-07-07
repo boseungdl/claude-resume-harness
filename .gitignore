@@ -1,0 +1,15 @@
+# 로컬 설정(절대경로·개인 permission 목록) 제외
+.claude/settings.json
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# OMC 런타임 상태
+.omc/
+
+# 실제 이력서 내용·포트폴리오 문서(DOC)는 이 하네스 저장소에 넣지 않음
+about-me/
+portfolio/
+
+# OS·에디터
+.DS_Store
+Thumbs.db
