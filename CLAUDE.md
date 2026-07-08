@@ -72,4 +72,4 @@ Say "setup omc" or run `/oh-my-claudecode:omc-setup`.
 - **폴더 구조**: 공고별 작업은 `about-me/지원/{회사}-{직무}-{YYYYMM}/`의 00~03 파일 구조를 쓴다.
 - **순서 강제**: `01-분석.md`가 없으면 이력서·자소서 초안을 작성하지 않는다 — 분석 단계로 유도한다.
 - **자기승인 금지**: 퇴고는 작성 컨텍스트와 격리된 recruiter(screen)·editor 서브에이전트 패스로만 수행한다(OMC의 작성/검토 분리 원칙과 동일). 치명 지적이 남아 있으면 "제출가능" 판정을 내리지 않는다.
-- recruiter/storyteller/editor(`.claude/agents/`)는 OMC에 없는 채용 도메인 관점의 보완이며, OMC의 검증 체계를 대체하지 않는다.
+- recruiter/storyteller/essayist/copywriter/editor(`.claude/agents/`)는 OMC에 없는 채용 도메인 관점의 보완이며, OMC의 검증 체계를 대체하지 않는다. 자소서 초안 작성은 essayist(문항 유형별 주력 작성), 설득·공감 포장은 copywriter, 문장 퇴고는 editor로 역할이 분리된다.
